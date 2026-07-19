@@ -9,7 +9,7 @@
 
 Complete implementation of **Score(a) = p(Say) × p(Can)** for a simulated chess-playing robot.
 
-- **p(Say)**: Strategic preference from GPT-4o-mini log-probabilities over legal move menus
+- **p(Say)**: Strategic preference from Deepseek log-probabilities over legal move menus
 - **p(Can)**: Geometric feasibility proxy (IK solvability + workspace bounds + travel distance)
 - **Validation**: python-chess ensures every move is FIDE-legal before execution
 - **Simulation**: PyBullet with UR5e 6-DOF arm and Robotiq 2F-85 gripper
